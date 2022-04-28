@@ -1,0 +1,221 @@
+------------------------------------------------------------
+TimeQuest Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow 1200mV 85C Model Setup 'CLOCK_50'
+Slack : -5.160
+TNS   : -180.356
+
+Type  : Slow 1200mV 85C Model Setup 'clock_counter:comb_3|hour_counter:u2|count_s[2]'
+Slack : -4.007
+TNS   : -19.180
+
+Type  : Slow 1200mV 85C Model Setup 'clock_counter:comb_3|second_counter:u0|count_s[2]'
+Slack : -3.971
+TNS   : -18.882
+
+Type  : Slow 1200mV 85C Model Setup 'clock_counter:comb_3|minute_counter:u1|count_s[2]'
+Slack : -3.783
+TNS   : -18.522
+
+Type  : Slow 1200mV 85C Model Setup 'clock_counter:comb_3|count[2]'
+Slack : -3.752
+TNS   : -14.006
+
+Type  : Slow 1200mV 85C Model Setup 'KEY[0]'
+Slack : -2.164
+TNS   : -4.306
+
+Type  : Slow 1200mV 85C Model Hold 'CLOCK_50'
+Slack : 0.206
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'KEY[0]'
+Slack : 0.440
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'clock_counter:comb_3|second_counter:u0|count_s[2]'
+Slack : 0.443
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'clock_counter:comb_3|minute_counter:u1|count_s[2]'
+Slack : 0.586
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'clock_counter:comb_3|hour_counter:u2|count_s[2]'
+Slack : 0.603
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'clock_counter:comb_3|count[2]'
+Slack : 2.316
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'CLOCK_50'
+Slack : -3.000
+TNS   : -85.500
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'KEY[0]'
+Slack : -3.000
+TNS   : -9.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'clock_counter:comb_3|second_counter:u0|count_s[2]'
+Slack : 0.209
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'clock_counter:comb_3|count[2]'
+Slack : 0.228
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'clock_counter:comb_3|minute_counter:u1|count_s[2]'
+Slack : 0.237
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'clock_counter:comb_3|hour_counter:u2|count_s[2]'
+Slack : 0.270
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Setup 'CLOCK_50'
+Slack : -4.648
+TNS   : -159.514
+
+Type  : Slow 1200mV 0C Model Setup 'clock_counter:comb_3|second_counter:u0|count_s[2]'
+Slack : -3.661
+TNS   : -17.417
+
+Type  : Slow 1200mV 0C Model Setup 'clock_counter:comb_3|hour_counter:u2|count_s[2]'
+Slack : -3.645
+TNS   : -17.418
+
+Type  : Slow 1200mV 0C Model Setup 'clock_counter:comb_3|minute_counter:u1|count_s[2]'
+Slack : -3.468
+TNS   : -16.975
+
+Type  : Slow 1200mV 0C Model Setup 'clock_counter:comb_3|count[2]'
+Slack : -3.425
+TNS   : -12.673
+
+Type  : Slow 1200mV 0C Model Setup 'KEY[0]'
+Slack : -2.054
+TNS   : -4.023
+
+Type  : Slow 1200mV 0C Model Hold 'CLOCK_50'
+Slack : 0.154
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'KEY[0]'
+Slack : 0.387
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'clock_counter:comb_3|second_counter:u0|count_s[2]'
+Slack : 0.462
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'clock_counter:comb_3|minute_counter:u1|count_s[2]'
+Slack : 0.566
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'clock_counter:comb_3|hour_counter:u2|count_s[2]'
+Slack : 0.569
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'clock_counter:comb_3|count[2]'
+Slack : 2.180
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'CLOCK_50'
+Slack : -3.000
+TNS   : -85.500
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'KEY[0]'
+Slack : -3.000
+TNS   : -9.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'clock_counter:comb_3|second_counter:u0|count_s[2]'
+Slack : 0.159
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'clock_counter:comb_3|count[2]'
+Slack : 0.190
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'clock_counter:comb_3|minute_counter:u1|count_s[2]'
+Slack : 0.205
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'clock_counter:comb_3|hour_counter:u2|count_s[2]'
+Slack : 0.268
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'CLOCK_50'
+Slack : -2.213
+TNS   : -67.049
+
+Type  : Fast 1200mV 0C Model Setup 'clock_counter:comb_3|count[2]'
+Slack : -1.949
+TNS   : -7.370
+
+Type  : Fast 1200mV 0C Model Setup 'clock_counter:comb_3|hour_counter:u2|count_s[2]'
+Slack : -1.526
+TNS   : -6.744
+
+Type  : Fast 1200mV 0C Model Setup 'clock_counter:comb_3|second_counter:u0|count_s[2]'
+Slack : -1.463
+TNS   : -6.476
+
+Type  : Fast 1200mV 0C Model Setup 'clock_counter:comb_3|minute_counter:u1|count_s[2]'
+Slack : -1.377
+TNS   : -6.133
+
+Type  : Fast 1200mV 0C Model Setup 'KEY[0]'
+Slack : -0.618
+TNS   : -1.228
+
+Type  : Fast 1200mV 0C Model Hold 'CLOCK_50'
+Slack : -0.042
+TNS   : -0.081
+
+Type  : Fast 1200mV 0C Model Hold 'clock_counter:comb_3|second_counter:u0|count_s[2]'
+Slack : -0.008
+TNS   : -0.008
+
+Type  : Fast 1200mV 0C Model Hold 'clock_counter:comb_3|hour_counter:u2|count_s[2]'
+Slack : 0.102
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'clock_counter:comb_3|minute_counter:u1|count_s[2]'
+Slack : 0.107
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'KEY[0]'
+Slack : 0.199
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'clock_counter:comb_3|count[2]'
+Slack : 1.721
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'CLOCK_50'
+Slack : -3.000
+TNS   : -58.770
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'KEY[0]'
+Slack : -3.000
+TNS   : -9.116
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'clock_counter:comb_3|second_counter:u0|count_s[2]'
+Slack : 0.424
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'clock_counter:comb_3|hour_counter:u2|count_s[2]'
+Slack : 0.432
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'clock_counter:comb_3|minute_counter:u1|count_s[2]'
+Slack : 0.455
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'clock_counter:comb_3|count[2]'
+Slack : 0.459
+TNS   : 0.000
+
+------------------------------------------------------------

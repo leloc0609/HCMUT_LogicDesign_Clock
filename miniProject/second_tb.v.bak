@@ -1,0 +1,22 @@
+module second_tb();
+	reg rst,clk;
+	wire reach;
+		
+	second_counter uut(clk,rst,reach);
+	
+	always begin
+	
+	clk=~clk;
+	#5;
+	end
+	
+	initial begin
+		clk=0;
+		rst=0;
+		#10;
+		rst=1;
+		
+		#700;
+		$stop ;
+	end
+endmodule 

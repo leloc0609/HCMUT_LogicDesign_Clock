@@ -1,0 +1,2 @@
+Warning (10268): Verilog HDL information at clock_divider.v(8): always construct contains both blocking and non-blocking assignments File: D:/LogicDesign/miniProject/clock_divider.v Line: 8
+Warning (10268): Verilog HDL information at clock_counter.v(24): always construct contains both blocking and non-blocking assignments File: D:/LogicDesign/miniProject/clock_counter.v Line: 24

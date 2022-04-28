@@ -1,0 +1,106 @@
+# Reading D:/intelFPGA_lite/modelsim_ase/tcl/vsim/pref.tcl
+# do miniProject_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap work rtl_work 
+# Copying D:/intelFPGA_lite/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+D:/LogicDesign/miniProject {D:/LogicDesign/miniProject/separate.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 05:24:48 on Jul 03,2020
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/LogicDesign/miniProject" D:/LogicDesign/miniProject/separate.v 
+# -- Compiling module separate
+# 
+# Top level modules:
+# 	separate
+# End time: 05:24:48 on Jul 03,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+D:/LogicDesign/miniProject {D:/LogicDesign/miniProject/second_counter.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 05:24:48 on Jul 03,2020
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/LogicDesign/miniProject" D:/LogicDesign/miniProject/second_counter.v 
+# -- Compiling module second_counter
+# 
+# Top level modules:
+# 	second_counter
+# End time: 05:24:48 on Jul 03,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+D:/LogicDesign/miniProject {D:/LogicDesign/miniProject/minute_counter.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 05:24:48 on Jul 03,2020
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/LogicDesign/miniProject" D:/LogicDesign/miniProject/minute_counter.v 
+# -- Compiling module minute_counter
+# 
+# Top level modules:
+# 	minute_counter
+# End time: 05:24:48 on Jul 03,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+D:/LogicDesign/miniProject {D:/LogicDesign/miniProject/led7_decoder.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 05:24:48 on Jul 03,2020
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/LogicDesign/miniProject" D:/LogicDesign/miniProject/led7_decoder.v 
+# -- Compiling module led7_decoder
+# 
+# Top level modules:
+# 	led7_decoder
+# End time: 05:24:48 on Jul 03,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+D:/LogicDesign/miniProject {D:/LogicDesign/miniProject/clock_counter.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 05:24:48 on Jul 03,2020
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/LogicDesign/miniProject" D:/LogicDesign/miniProject/clock_counter.v 
+# -- Compiling module clock_counter
+# 
+# Top level modules:
+# 	clock_counter
+# End time: 05:24:48 on Jul 03,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+D:/LogicDesign/miniProject {D:/LogicDesign/miniProject/hour_counter.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 05:24:48 on Jul 03,2020
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/LogicDesign/miniProject" D:/LogicDesign/miniProject/hour_counter.v 
+# -- Compiling module hour_counter
+# 
+# Top level modules:
+# 	hour_counter
+# End time: 05:24:48 on Jul 03,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -vlog01compat -work work +incdir+D:/LogicDesign/miniProject {D:/LogicDesign/miniProject/second_tb.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 05:24:49 on Jul 03,2020
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/LogicDesign/miniProject" D:/LogicDesign/miniProject/second_tb.v 
+# -- Compiling module second_tb
+# 
+# Top level modules:
+# 	second_tb
+# End time: 05:24:49 on Jul 03,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneiv_hssi_ver -L cycloneiv_pcie_hip_ver -L cycloneiv_ver -L rtl_work -L work -voptargs="+acc"  second_tb
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneiv_hssi_ver -L cycloneiv_pcie_hip_ver -L cycloneiv_ver -L rtl_work -L work -voptargs=""+acc"" second_tb 
+# Start time: 05:24:49 on Jul 03,2020
+# Loading work.second_tb
+# Loading work.clock_counter
+# Loading work.second_counter
+# Loading work.separate
+# Loading work.led7_decoder
+# Loading work.minute_counter
+# Loading work.hour_counter
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+# ** Note: $stop    : D:/LogicDesign/miniProject/second_tb.v(26)
+#    Time: 200120 ns  Iteration: 0  Instance: /second_tb
+# Break in Module second_tb at D:/LogicDesign/miniProject/second_tb.v line 26
+# End time: 09:17:01 on Jul 03,2020, Elapsed time: 3:52:12
+# Errors: 0, Warnings: 0

@@ -1,0 +1,28 @@
+module second_counter(clk_50, rst, S_counter_over,S1,S2);
+
+	input clk_50, rst;
+	
+	reg [5:0]count_s;
+	reg reach60s, count59, key;	
+	
+	output S_counter_over;
+	output [6:0] S1, S2;
+	
+	wire[3:0]w1, w2;
+		
+	always @(posedge clk_50, negedge rst)
+		begin
+			if(~rst)
+				count_s <= 0;
+			else
+				if (count_s >= 59)	count_s <= 0;
+				else count_s <= count_s + 1;
+		end
+			
+	assign S_counter_over = (count_s == 6'b111011) ? 1 : 0;
+	
+	separate a1(count_s, w1, w2);
+	led7_decoder(w1, S1);
+	led7_decoder(w2, S2);
+	
+endmodule  

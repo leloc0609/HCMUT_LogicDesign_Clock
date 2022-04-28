@@ -1,0 +1,15 @@
+module clock_counter(clk_50, rst, reach60m, S_counter_over,S1, S2, S3, S4);
+
+	input clk_50, rst;
+	
+	output reach60m;
+	output S_counter_over;
+	output [5:0] count_m;
+	output [6:0] S1, S2, S3, S4;
+	
+	wire w1;
+	
+	second_counter u1(clk_50, rst, w1, S1, S2);
+	minute_counter u2(w1, rst, reach60m);
+	
+endmodule 

@@ -1,0 +1,164 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/LogicDesign/miniProject/simulation/modelsim
+vclock_counter
+Z1 !s110 1593728688
+!i10b 1
+!s100 _`^5SU1lkfBc6A13WEKBm3
+Idc:^HY@EmKG4OFY3VEg=C2
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1593664017
+8D:/LogicDesign/miniProject/clock_counter.v
+FD:/LogicDesign/miniProject/clock_counter.v
+L0 1
+Z3 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z4 !s108 1593728688.000000
+!s107 D:/LogicDesign/miniProject/clock_counter.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/LogicDesign/miniProject|D:/LogicDesign/miniProject/clock_counter.v|
+!i113 1
+Z5 o-vlog01compat -work work
+Z6 !s92 -vlog01compat -work work +incdir+D:/LogicDesign/miniProject
+Z7 tCvgOpt 0
+vhour_counter
+R1
+!i10b 1
+!s100 8A]gTJYWoVbBF>Ybc:zM:3
+I>onDnD_e]iG`AHGFi9FVl3
+R2
+R0
+w1593585905
+8D:/LogicDesign/miniProject/hour_counter.v
+FD:/LogicDesign/miniProject/hour_counter.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 D:/LogicDesign/miniProject/hour_counter.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/LogicDesign/miniProject|D:/LogicDesign/miniProject/hour_counter.v|
+!i113 1
+R5
+R6
+R7
+vled7_decoder
+R1
+!i10b 1
+!s100 ^A9_DHhkF6j[V0Y1?1gQ;1
+IZF;Kkb>E`NZDj^PPVUE[[3
+R2
+R0
+w1592462370
+8D:/LogicDesign/miniProject/led7_decoder.v
+FD:/LogicDesign/miniProject/led7_decoder.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 D:/LogicDesign/miniProject/led7_decoder.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/LogicDesign/miniProject|D:/LogicDesign/miniProject/led7_decoder.v|
+!i113 1
+R5
+R6
+R7
+vminute_counter
+R1
+!i10b 1
+!s100 LQP<OdS;_DM809>=FDeOf2
+I6fiH_i3g><33k04b4?KCl0
+R2
+R0
+w1593620340
+8D:/LogicDesign/miniProject/minute_counter.v
+FD:/LogicDesign/miniProject/minute_counter.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 D:/LogicDesign/miniProject/minute_counter.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/LogicDesign/miniProject|D:/LogicDesign/miniProject/minute_counter.v|
+!i113 1
+R5
+R6
+R7
+vsecond_counter
+R1
+!i10b 1
+!s100 UZKeWAUKAaUhzQZ>kaPTa2
+Ii]EN0?L<];]k47;Ea88062
+R2
+R0
+w1593725993
+8D:/LogicDesign/miniProject/second_counter.v
+FD:/LogicDesign/miniProject/second_counter.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 D:/LogicDesign/miniProject/second_counter.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/LogicDesign/miniProject|D:/LogicDesign/miniProject/second_counter.v|
+!i113 1
+R5
+R6
+R7
+vsecond_tb
+!s110 1593728689
+!i10b 1
+!s100 6:dl?cA[HH8DU3ag7]X8W3
+ISkYhLoA2DSA093XF;dYeP3
+R2
+R0
+w1593727578
+8D:/LogicDesign/miniProject/second_tb.v
+FD:/LogicDesign/miniProject/second_tb.v
+L0 2
+R3
+r1
+!s85 0
+31
+!s108 1593728689.000000
+!s107 D:/LogicDesign/miniProject/second_tb.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/LogicDesign/miniProject|D:/LogicDesign/miniProject/second_tb.v|
+!i113 1
+R5
+R6
+R7
+vseparate
+R1
+!i10b 1
+!s100 @WE:nP]kL>Pa3]7E0N3hm1
+I`amcEIjjZZ;4C;D<eB6ee0
+R2
+R0
+w1592462346
+8D:/LogicDesign/miniProject/separate.v
+FD:/LogicDesign/miniProject/separate.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 D:/LogicDesign/miniProject/separate.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/LogicDesign/miniProject|D:/LogicDesign/miniProject/separate.v|
+!i113 1
+R5
+R6
+R7

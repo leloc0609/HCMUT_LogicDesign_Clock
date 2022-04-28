@@ -1,0 +1,37 @@
+module hour_counter(clk_50, rst, reach24h,S3, S4);
+
+	input clk_50, rst;
+	
+	reg [5:0]count_s;
+	
+	output reach24h;
+	output [6:0] S1, S2;
+	reg enable;
+	wire[3:0]w1, w2;
+		
+	always @(posedge clk_50, negedge rst)
+		begin
+			if(~rst)
+			begin
+				count_s <= 0;
+				enable<=0;
+			end
+			else
+				if (count_s >= 24)	
+				begin
+					count_s <= 0;
+					enable<=1;
+				end
+				else 
+				count_s <= count_s + 1;
+				
+				
+		end
+	assign reach24h=(count_s==0 && enable==1) ? 1:0;
+	
+	separate a1(count_s, w1, w2);
+	led7_decoder u1(w1, S3);
+	led7_decoder u2(w2, S4);
+	
+	
+endmodule  

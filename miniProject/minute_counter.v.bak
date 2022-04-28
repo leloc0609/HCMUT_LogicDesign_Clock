@@ -1,0 +1,29 @@
+module minute_counter(clk, rst, reach60m, count_m,S3, S4);
+
+	input clk, rst;
+	
+	output reg [5:0]count_m;	
+	
+	output [6:0] S3, S4;
+	output reach60m;
+	
+	wire[3:0]w1, w2;
+	
+		
+	always @(posedge clk, negedge rst)
+		begin
+			if(~rst)
+				count_m <= 0;
+			else
+				if (count_m >= 59)	count_m <= 0;
+				else count_m <= count_m + 1;
+		end
+		
+	assign reach60m = (count_m == 6'b111011) ? 1 : 0;
+			
+	
+	separate a1(count_m, w1, w2);
+	led7_decoder(w1, S3);
+	led7_decoder(w2, S4);
+	
+endmodule  
